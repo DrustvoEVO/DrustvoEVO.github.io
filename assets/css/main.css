@@ -105,7 +105,7 @@ a:hover, a:focus { text-decoration: none; color: #F3AF85; }
   .intro .intro-body .brand-heading { font-size: 90px; }
   .intro .intro-body .intro-text { font-size: 25px; } }
 @media (max-width: 1200px) { .break-section2 { background: none; } }
-.content-section { padding-top: 100px; }
+.content-section { padding-top: 50px; }
 
 .break-section { width: 100%; padding: 50px 0; color: #fff; background: url("http://drustvo-evo.hr/homepage/assets/img/bcg/blue_bg_side.png") 50% 0 fixed; background-color: #000; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
 
@@ -117,7 +117,7 @@ a:hover, a:focus { text-decoration: none; color: #F3AF85; }
 
 .break-section p.main2 a { text-decoration: none; color: white; }
 
-@media (min-width: 768px) { .content-section { padding-top: 200px; }
+@media (min-width: 768px) { .content-section { padding-top: 50px; }
   .download-section { padding: 100px 0; } }
 .btn-circle { width: 70px; height: 70px; margin-top: 15px; padding: 7px 16px; border: 2px solid #fff; border-radius: 35px; font-size: 40px; color: #fff; background: 0 0; -webkit-transition: background .3s ease-in-out; -moz-transition: background .3s ease-in-out; transition: background .3s ease-in-out; }
 
@@ -175,6 +175,6 @@ img::-moz-selection { background: 0 0; }
 
 ::selection { text-shadow: none; background: #fcfcfc; background: rgba(255, 255, 255, 0.2); }
 
-footer { padding: 50px 0; }
+footer { padding: 0px 0; }
 
 footer p { margin: 0; }
