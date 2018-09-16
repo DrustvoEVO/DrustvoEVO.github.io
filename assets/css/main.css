@@ -57,7 +57,7 @@ p.project { text-align: justify; font-size: 14px; }
 
 .honorary p { font-size: 15px; margin-bottom: 15px; }
 
-.active_projects { text-align: left; }
+.active_projects { text-align: left; padding-bottom: 30px; }
 
 .finished_projects { text-align: right; }
 
