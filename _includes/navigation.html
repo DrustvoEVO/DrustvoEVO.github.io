@@ -28,7 +28,7 @@
                         <ul class="dropdown-menu">
                             {% for tongue in site.languages %}
 
-                                <li><a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} href={% if tongue == site.default_lang %}"{{ page.url | preped: site.baseurl | prepend: site.url }}"{% else %} "{{ tongue | prepend: "/" | prepend: site.url | prepend: site.baseurl }}{{ page.url }}"{% endif %}>{{ tongue }}</a></li>
+                                <li><a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} href={% if tongue == site.default_lang %} "{{ site.url | prepend: site.baseurl }}"{% else %} "{{ tongue | prepend: "/" | prepend: site.url | prepend: site.baseurl }}{{ page.url }}"{% endif %}>{{ tongue }}</a></li>
                             {% endfor %}
                         </ul>
                     </li>
