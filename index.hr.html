@@ -35,7 +35,7 @@ lang: hr
                 <div class="lineb"></div>
                 <p class="main2">Misija <strong>Društva za edukaciju van okvira</strong> (skraćeno &quot;Društvo EVO&quot;) je edukacija svih dobnih skupina u<span lang="hr" xml:lang="hr"> području kritičkog načina razmišljanja te</span><span lang="hr" xml:lang="hr"> promicanje slobode misli, mišljenja i izražavanja. </span>Članovi Društva okupljeni su oko zajedničkog iskustva rada u znanstvenom istraživanju i obrazovanju mladih, koji uz stremljenje vlastitoj profesionalnoj izvrsnosti njeguju i odgovornost prema zajednici radeći volonterski na prevladavanju postojećih društvenih izazova. Namjera Društva EVO je stvaranje mreže stručnjaka u Hrvatskoj i inozemstvu zainteresiranih da se kroz sinergiju postojećih i razvoj novih projekata aktivno suprostavljaju postojećim negativnim trendovima u društvu, a posebice obrazovanju. Projekti na kojima Društvo EVO trenutno radi usmjereni su ka poboljšanju znanstvene pismenosti, komunikacije i kulture.</p>
 
-                <p><img src={{ "/assets/img/bcg/EVO_background_plavi.png" | absolute_url }} width="352" height="126" border="0" /></p>
+                <p><img src={{ "/assets/img/bcg/EVO_background_plavi.png" | prepend: site.baseurl | prepend: site.url }} width="352" height="126" border="0" /></p>
 
             </div>
         </div>
@@ -50,28 +50,37 @@ lang: hr
                     <div class="lineb">
                     </div>
 
-                    <h3>Aktivni članovi</h3>
+                    <div class="member_list">
+                        <table style="width:100%">
+                            <tr>
+                                <td valign="top">
+                                    <div class="people">
+                                        <h3>Aktivni članovi</h3>
 
-                    <div class="people">
-                        {% for member in site.data.members %}
-                        <p>
-                            <strong>{{ member.name }}{% if member.qualifications %},{% endif %} {{ member.qualifications }}</strong><br>
-                            {{ member.affiliation }}
-                        </p>
+                                        {% for member in site.data.members %}
+                                        <p>
+                                            <strong>{{ member.name }}{% if member.qualifications %},{% endif %} {{ member.qualifications }}</strong><br>
+                                            {{ member.affiliation }}
+                                        </p>
 
-                        {% endfor %}
-                    </div>
+                                        {% endfor %}
+                                    </div>
+                                </td>
+                                <td valign="top">
+                                    <div class="honorary">
+                                        <h3>Počasni članovi</h3>
 
-                    <h3>Počasni članovi</h3>
+                                        {% for member in site.data.honorary_members %}
+                                        <p>
+                                            <strong>{{ member.name }}{% if member.qualifications %},{% endif %} {{ member.qualifications }}</strong><br>
+                                            {{ member.affiliation }}
+                                        </p>
 
-                    <div class="honorary">
-                        {% for member in site.data.honorary_members %}
-                        <p>
-                            <strong>{{ member.name }}{% if member.qualifications %},{% endif %} {{ member.qualifications }}</strong><br>
-                            {{ member.affiliation }}
-                        </p>
-
-                        {% endfor %}
+                                        {% endfor %}
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>

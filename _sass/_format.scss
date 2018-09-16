@@ -96,6 +96,12 @@ p.project {
 
 .people p {
     font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.member_list td {
+    width: 50%;
+    valign: "bottom";
 }
 
 .honorary {
@@ -104,6 +110,7 @@ p.project {
 
 .honorary p {
     font-size: 15px;
+    margin-bottom: 15px;
 }
 
 .active_projects {
