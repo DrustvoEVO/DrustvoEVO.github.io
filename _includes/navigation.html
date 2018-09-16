@@ -23,6 +23,16 @@
                         </li>
                     {% endfor %}
 
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle nav">Lang <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            {% for tongue in site.languages %}
+
+                                <li><a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+
                     <!--<li>
                         <a class="page-scroll nav" href="index.html">About</a>
                     </li>
