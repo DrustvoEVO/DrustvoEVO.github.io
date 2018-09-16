@@ -22,9 +22,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl:  # the subpath of your site, e.g. /blog
 #use the line below when deploying to github
-#url: http://drustvo-evo.hr/homepage # the base hostname & protocol for your site, e.g. http://example.com
+url: http://drustvo-evo.hr/homepage # the base hostname & protocol for your site, e.g. http://example.com
 # use the line below for local development
-url:  # the base hostname & protocol for your site, e.g. http://example.com
+#url:  # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_username: drustvo.evo
 github_username:  
