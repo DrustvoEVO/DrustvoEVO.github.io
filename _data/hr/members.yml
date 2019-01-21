@@ -5,25 +5,28 @@
   qualifications: mag. ing. comp.
   affiliation: University College London, UK
 - name: Petra Bucić
-  qualifications: bacc. ing. el. techn. inf.
+  qualifications: univ. bacc. ing. el. techn. inf.
   affiliation: Fakultet eletrotehnike i računarstva, Sveučilište u Zagrebu
 - name: Sebastijan Dumančić
-  qualifications: mag. ing. comp.
+  qualifications: dr. sc.
   affiliation: KU Leuven, Belgija
+- name: Stjepan Gotovac
+  qualifications:
+  affiliation: Fakultet Strojarstva i brodogradnje, Sveučilište u Zagrebu
 - name: Dora Grbavac
-  qualifications: bacc. mol. biol.
+  qualifications: univ. bacc. mol. biol.
   affiliation: Prirodoslovno-matematički fakultet, Sveučilište u Zagrebu
 - name: Petra Krznar
   qualifications: mag. mol. biol.
   affiliation: ETH Zurich, Švicarska
 - name: Tin Kocijan
-  qualifications: bacc. mol. biol.
+  qualifications: univ. bacc. mol. biol.
   affiliation: University of Sorbonne, Francuska
 - name: Snježana Kodba
-  qualifications: bacc. mol. biol.
+  qualifications: univ. bacc. mol. biol.
   affiliation: Prirodoslovno-matematički fakultet, Sveučilište u Zagrebu
 - name: Anna-Maria Križanac
-  qualifications: 
+  qualifications: univ. bacc. geophys. 
   affiliation: Prirodoslovno-matematički fakultet, Sveučilište u Zagrebu
 - name: Kristina Majsec
   qualifications: dr. sc.
@@ -31,12 +34,15 @@
 - name: Matilda Maleš
   qualifications: dr. sc.
   affiliation: ZS, Njemačka
-- name: Luka Opašić
-  qualifications: dr. med.
-  affiliation: Max Planck Institut, Njemačka
+- name: Luka Matijević
+  qualifications: 
+  affilication: Prirodoslovno-matematički fakultet, Sveučilište u Zagrebu
 - name: Ivana Osredek
   qualifications: 
   affiliation: University of Leicester, UK
+- name: Petra Parac
+  qualifications:
+  affiliation: Farmaceutrsko-biokemijski fakultet, Sveučilište u Zagrebu
 - name: Ana Petrinec
   qualifications: mag. phys.
   affiliation: Prirodoslovno-matematički fakultet, Sveučilište u Zagrebu
@@ -49,6 +55,9 @@
 - name: Ivan Sudić
   qualifications: mag. phys.
   affiliation: Institut Ruđer Bošković, Zagreb
+- name: Grgur Šimunić
+  qualifications: mag. phys.
+  affiliation: Institut Ruđer Bošković
 - name: Nikolina Šoštarić
   qualifications: mag. chem.
   affiliation: KU Leuven, Belgija

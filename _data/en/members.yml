@@ -8,8 +8,11 @@
   qualifications: B.Sc
   affiliation: University of Zagreb, Croatia
 - name: Sebastijan Dumančić
-  qualifications: M.Sc
+  qualifications: Ph.D.
   affiliation: KU Leuven, Belgium
+- name: Stjepan Gotovac
+  qualifications:
+  affiliation: University of Zagreb, Croatia
 - name: Dora Grbavac
   qualifications: B.Sc
   affiliation: University of Zagreb, Croatia
@@ -23,20 +26,23 @@
   qualifications: B.Sc
   affiliation: University of Zagreb, Croatia
 - name: Anna-Maria Križanac
-  qualifications: 
+  qualifications: B.Sc
   affiliation: University of Zagreb, Croatia
 - name: Kristina Majsec
   qualifications: Ph.D.
   affiliation: University of Zagreb, Croatia
+- name: Luka Matijević
+  qualifications:
+  affiliation: University of Zagreb, Croatia
 - name: Matilda Maleš
   qualifications: Ph.D.
   affiliation: ZS, Germany
-- name: Luka Opašić
-  qualifications: MD
-  affiliation: Max Planck Institute, Germany
 - name: Ivana Osredek
   qualifications: 
   affiliation: University of Leicester, UK
+- name: Petra Parac
+  qualifications:
+  affiliation: University of Zagreb, Croatia
 - name: Ana Petrinec
   qualifications: M.Sc
   affiliation: University of Zagreb, Croatia
@@ -47,6 +53,9 @@
   qualifications: M.Sc
   affiliation: Ruđer Bošković Institute, Croatia
 - name: Ivan Sudić
+  qualifications: M.Sc
+  affiliation: Ruđer Bošković Institute, Croatia
+- name: Grgur Šimunić
   qualifications: M.Sc
   affiliation: Ruđer Bošković Institute, Croatia
 - name: Nikolina Šoštarić
