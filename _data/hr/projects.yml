@@ -40,4 +40,9 @@
   link: 
   image: happigenetics.jpg
   status: finished
-
+- project: zum
+  name: Znanstvenik u meni!
+  description: Znanstvenik u meni! najtecanje je u komunikaciji znanosti za učenike srednjih škola. Ovaj projekt ima za cilj pomoći srednjoškolcima da razviju svoju strast za znanošću, unaprijede svoje komunikacije vještine te im pomaže pri odabiru karijere u znanosti. Natjecanje se sastoji od dvije faze. U prvoj fazi, natjecatelji nam šalju video snimke u kojima predstavljaju znanstvenu temu po svom izboru te pristigle snimke ocjenjuju žiri i javnost. Druga faza sastoji se od javnog finala u kojem najbolje ocijenjeni natjecatelji uživo predstavljaju odabrane teme. Ovaj projekt zajedno provode Društvo za edukaciju van okvira i Educateam.
+  link: https://zum.educateam.hr/
+  image: zum.jpg
+  status: active
