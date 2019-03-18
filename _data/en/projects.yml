@@ -46,4 +46,9 @@
   link: https://zum.educateam.hr/
   image: zum.jpg
   status: active
-
+- project: stemlab
+  name: STEMlab
+  description: After successfull years of the Summer School of Science, with this project we hope to reach a broader audience of high-school students all over Croatia throughout the academic year. Following the practice of the Summer School of Science, this project consists of a set of workshops teaching STEM fields (Science, Technology, Engineering and Mathematics) in a practical way. Interested in hosting these workshops in your school? Contact us!
+  link: https://drustvo-evo.hr/stemlab
+  image: stemlab.png
+  status: active 

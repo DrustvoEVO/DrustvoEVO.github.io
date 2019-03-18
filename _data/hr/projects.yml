@@ -46,3 +46,9 @@
   link: https://zum.educateam.hr/
   image: zum.jpg
   status: active
+- project: stemlab
+  name: STEMlab
+  description: Nakon godina uspješne organizacije Ljetne škole znanosti u Požegi, Društvo za edukaciju van okvira (skraćeno Društvo EVO) ovim projektom želi približiti znanost što većem broju srednjoškolaca diljem Hrvatske tijekom cijele školske godine. Kako bismo postigli taj cilj, pripremili smo niz radionica koje ćemo rado održati u vašoj školi! Ove radionice prate principe Ljetne škole znanosti, pristupajući podučavanju STEM područja (engl. <i>Science, Technology, Engineering, Mathematics</i>) na praktičan način. Zainteresirani ste pozvati nas u vašu školu? Javite nam se putem jednog od ovih kontakata.
+  link: https://drustvo-evo.hr/stemlab
+  image: stemlab.png
+  status: active
