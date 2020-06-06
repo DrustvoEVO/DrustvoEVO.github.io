@@ -5,4 +5,6 @@
 - name: Projects
   link: projects
 - name: Contact
-  link: contact 
+  link: contact
+- name: Blog
+  link: https://blog.drustvo-evo.hr 
